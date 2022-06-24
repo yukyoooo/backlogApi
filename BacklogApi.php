@@ -1,7 +1,7 @@
 <?php
 
 $backlogApi = new BacklogApi();
-$result = $backlogApi->closeIssue();
+$backlogApi->closeIssue();
 $backlogApi->addIssue();
 
 
